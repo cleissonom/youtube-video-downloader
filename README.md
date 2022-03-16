@@ -1,5 +1,8 @@
 # Youtube Downloader created with React.js and Node.js
 
+<img src="./.github/InFolder.png">
+<img src="./.github/Page.png">
+
 ### ⚙️ Technologies
 - [Create React App](https://github.com/facebook/create-react-app)
 - [ytdl](https://www.npmjs.com/package/ytdl-core)
@@ -20,7 +23,7 @@ More: [React Icons](https://react-icons.github.io/react-icons) / [cors](https://
 
 ### 📝 About
 
-That project is basically a simple Client Side (built with CRA) and a Server Side (Express), that download a youtube video using ytdl and install in your device using fs(FileSystem). It's adapted to MacOs users, and if you want to modify something, please create a pull request 🙂
+That project is basically a simple Client Side (built with CRA) and a Server Side (Express), that download a youtube video using ytdl and install in your device using fs(FileSystem). If you want to modify something, please create a pull request 🙂
 
 ---
 

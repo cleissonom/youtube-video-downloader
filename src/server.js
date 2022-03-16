@@ -16,5 +16,5 @@ app.get('/download', (req, res) => {
 
    res.json({ url: URL });
 
-   ytdl(URL).pipe(fs.createWriteStream(`/Users/${MAC_USERNAME}}/Downloads/video.mp4`));
+   ytdl(URL).pipe(fs.createWriteStream(`/Users/${MAC_USERNAME}/Downloads/video.mp4`));
 });

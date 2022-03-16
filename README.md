@@ -16,6 +16,8 @@ More: [React Icons](https://react-icons.github.io/react-icons) / [cors](https://
   `https://github.com/cleissonom/youtube-video-downloader.git`
 - **Install the dependencies**
   `npm install`
+- **Change the path to install the video**
+  `Go to src/server.js:19`
 - **Run the server**
   `node src/server.js`
 - **Run the Client Side**

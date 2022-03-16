@@ -6,7 +6,10 @@ function App() {
    const [URLinput, setURLinput] = useState('')
 
    const sendURL = (URL) => {
-      // We will put code here later
+      fetch(`http://localhost:4000/download?URL=${URL}`, {
+         method: 'GET',
+      }).then((res) => res.json())
+         .then(json => console.log(json))
    }
 
    const convertBtn = () => {

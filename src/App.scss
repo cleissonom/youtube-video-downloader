@@ -10,9 +10,16 @@ body {
    font-family: Arial;
    margin-top:40vh;
    color: rgb(214, 214, 214);
+
+   svg {
+      vertical-align: middle;
+      margin-left: 0.2rem;
+      transform: scale(1.2)
+   }
 }
+
 .URL-input, .convert-button {
-   font-size:1.3em;
+   font-size: 1.3em;
    padding:10px 10px;
 }
 .URL-input {

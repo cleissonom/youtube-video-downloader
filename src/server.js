@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const ytdl = require('ytdl-core');
-const { randomFillSync } = require('crypto');
 
 const app = express();
 
@@ -17,5 +16,5 @@ app.get('/download', (req, res) => {
 
    res.json({ url: URL });
 
-   ytdl(URL).pipe(fs.createWriteStream(`/Users/${MAC_USERNAME}/Downloads/video.mp4`));
+   ytdl(URL).pipe(fs.createWriteStream(`/Users/${MAC_USERNAME}}/Downloads/video.mp4`));
 });
